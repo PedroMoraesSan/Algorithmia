@@ -66,7 +66,7 @@ export function parseFlowchartResponse(flowchartData: string) {
  * Atenção: resposta APENAS código!
  */
 export async function generateMermaidWithStyleFromGroq(userInstructions: string): Promise<string> {
-  const key = "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";
+  const key = "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";
   const apiUrl = "https://api.groq.com/openai/v1/chat/completions";
   const systemPrompt = `Você é um especialista em diagramas e Mermaid.
 Crie SOMENTE o código Mermaid necessário para o fluxograma abaixo, SEM explicações extras.

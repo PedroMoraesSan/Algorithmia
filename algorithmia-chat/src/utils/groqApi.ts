@@ -1,6 +1,6 @@
 
 // Real Groq API implementation
-// API Key: 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
+// API Key: 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
 
 export const generateAlgorithm = async (
   prompt: string,
@@ -45,7 +45,7 @@ Respond in ${language} language.`;
     const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer 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`,
+        'Authorization': `Bearer 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`,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
